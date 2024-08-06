@@ -1,0 +1,206 @@
+/* Reset */
+body {
+  margin: unset;
+  padding: unset;
+}
+h1, p{
+  font-size: 16px;
+  font-weight: normal;
+  font-family: arial;
+}
+
+li,ul{
+  list-style-type: none;
+  padding:unset;
+  margin:unset;
+}
+/* Layouts */
+.l_wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+
+/* Typography */
+:root {
+  font-family: arial;
+}
+
+/* Components */
+body {
+  color: #999;
+  background-color: #111;
+}
+
+.contents {
+  background-color: #000;
+}
+
+/*header*/
+.header {
+  background-color: #333;
+}
+.header-inside{
+  display: flex;
+  align-items: center;
+  height: 180px;
+}
+
+.logo{
+  width: 200px;
+  
+}
+
+.anger{
+  width: 140px;
+  
+  margin-left: auto;
+  margin-top: auto;
+}
+
+.text{
+  display: flex;
+  align-items: center;
+}
+
+.text::before{
+  content: '';
+  width: 64px;
+  height: 1px;
+  margin: 0 20px 0 30px;
+  
+  background-color: currentColor;
+} 
+/*header*/
+
+/*main*/
+.contents{
+  padding: 24px 0;
+}
+
+.main{
+  display: flex;
+  gap:24px;
+  min-height: 848px;
+  
+}
+
+.main-contents{
+  flex-grow: 1;
+  
+  display: flex;
+  gap: 24px;
+  flex-wrap:wrap;
+}
+
+/*movies contents*/
+.movies{
+  width: 320px;
+  height: 412px;
+  background-color: #222222;
+
+  border-radius: 20px;
+}
+.movies-img{
+  width: 320px;
+  height: 180px;
+
+  border-radius: 20px 20px 0 0;
+}
+
+.movies-text-wrapper{
+  padding:20px;
+  
+}
+.movies-title{
+  font-size: 16px;
+  font-weight: bold;
+  color:#EBB3BB;
+}
+.movies-info{
+  font-size: 12px;
+  font-weight: normal;
+  color: #999999;
+}
+
+.enter-wrapper{
+  background-color: #111111;
+  height: 48px;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  box-sizing: border-box;
+
+  margin-left: -10px;
+  margin-top: 40px;
+  padding-top: 15px;
+}
+
+.movies-enter{
+  font-size: 12px;
+  font-weight: bold;
+  color: #FF0000;  
+  letter-spacing: 0.2em;
+  
+
+  
+
+}
+/*movies contents*/
+
+
+
+/*side bar*/
+.side-bar{
+  flex-basis: 168px;
+  height: 340px;
+  background-color: #111111;
+  color:#999999;
+  font-size: 12px;
+}
+
+
+.genre-logo{
+  width: 16px;
+  height: 16px;
+  margin-right: 9px;
+}
+
+
+
+.pink-text{
+  color:#FA8073;
+  font-size:14px;
+}
+
+.pink-text::before{
+  display: block;
+  content:" ";
+  width: 168px;
+  height: 1px;
+  background-color: #FA8073;
+  margin-bottom: 8px;
+}
+
+.gray-text-space{
+  margin-left: 19px;
+}
+
+.gray-text{
+  font-size: 12px;
+  margin: 13px auto;
+  
+}
+
+.gray-text::before{
+  content:"";
+  display: block;
+  width: 149px;
+  height: 1px;
+  background-color: #333333;
+  margin-bottom: 13px;
+}
+/*side bar*/
+
+/*main*/
